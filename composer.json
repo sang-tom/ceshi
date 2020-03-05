@@ -16,19 +16,14 @@
     "php": ">=5.3.3"
   },
   "autoload": {
-    "files": [
-      "src/app/functions.php",
-      "src/hm/functions.php"
-    ],
     "psr-4": {
-      "App\\": "src/app",
-      "Hm\\": "src/hm"
+      "sang-tom\\": "src/"
     }
   },
   "repositories": {
     "packagist": {
       "type": "composer",
-      "url": "https://pkg.phpcomposer.com/"
+      "url": "https://packagist.phpcomposer.com"
     }
   }
 }
