@@ -28,6 +28,11 @@
       "App\\": "src/app",
       "Hm\\": "src/hm"
     }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
   }
-
 }
