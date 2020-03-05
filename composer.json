@@ -1,0 +1,33 @@
+{
+  "name": "test/devcontrol",
+  "description": "ceshi",
+  "type": "project",
+  "keywords": ["devcontrol"],
+  "homepage": "https://github.com/sang-tom/ceshi",
+  "license" : "GPL-3.0+",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "tom.sang",
+      "email": "826086885@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "phalapi/kernal": "2.2.*",
+    "phalapi/qrcode": "dev-master",
+    "phalapi/cli": "dev-master",
+    "phalapi/task": "dev-master"
+  },
+  "autoload": {
+    "files": [
+      "src/app/functions.php",
+      "src/hm/functions.php"
+    ],
+    "psr-4": {
+      "App\\": "src/app",
+      "Hm\\": "src/hm"
+    }
+  }
+
+}
