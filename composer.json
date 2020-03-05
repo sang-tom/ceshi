@@ -1,7 +1,7 @@
 {
-  "name": "test/devcontrol",
+  "name": "sang-tom/ceshi",
   "description": "ceshi",
-  "type": "project",
+  "type": "library",
   "keywords": ["devcontrol"],
   "homepage": "https://github.com/sang-tom/ceshi",
   "license" : "GPL-3.0+",
