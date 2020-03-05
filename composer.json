@@ -1,7 +1,7 @@
 {
   "name": "sang-tom/ceshi",
   "description": "ceshi",
-  "type": "library",
+  "type": "project",
   "keywords": ["devcontrol"],
   "homepage": "https://github.com/sang-tom/ceshi",
   "license" : "GPL-3.0+",
@@ -13,11 +13,7 @@
     }
   ],
   "require": {
-    "php": ">=5.3.3",
-    "phalapi/kernal": "2.2.*",
-    "phalapi/qrcode": "dev-master",
-    "phalapi/cli": "dev-master",
-    "phalapi/task": "dev-master"
+    "php": ">=5.3.3"
   },
   "autoload": {
     "files": [
@@ -32,7 +28,7 @@
   "repositories": {
     "packagist": {
       "type": "composer",
-      "url": "https://mirrors.aliyun.com/composer/"
+      "url": "https://pkg.phpcomposer.com/"
     }
   }
 }
