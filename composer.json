@@ -4,8 +4,7 @@
   "type": "project",
   "keywords": ["devcontrol"],
   "homepage": "https://github.com/sang-tom/ceshi",
-  "license" : "GPL-3.0+",
-  "minimum-stability": "dev",
+  "license" : "Apache-2.0",
   "authors": [
     {
       "name": "tom.sang",
@@ -17,13 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sang-tom\\": "src/"
+      "sang-tom\\ceshi\\": "src/"
     }
   },
-  "repositories": {
-    "packagist": {
-      "type": "composer",
-      "url": "https://packagist.org"
-    }
-  }
 }
